@@ -4,6 +4,14 @@ class KonyvModel {
     constructor() {
         console.log("KonyvModel");
     }
+    
+    adatModosit(adat){
+        console.log(adat)
+    }
+
+    adatTorol(adat){
+        console.log("ADATBOL TOROL",adat)
+    }
 
     adatBe(vegpont, myCallBack) {
         fetch(vegpont, {
@@ -23,6 +31,8 @@ class KonyvModel {
                 console.error('Error:', error);
             });
     }
+
+    
 }
 
 export default KonyvModel;
