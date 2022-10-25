@@ -5,7 +5,7 @@ import KonyvekPublicView from "../View/konyvekPublicView.js";
 class KonyvController {
     
     constructor() {
-        console.log("KonyvController");
+        // console.log("KonyvController");
         
         const konyvmodel = new KonyvModel();
         $("#admin").on("click", ()=>{

@@ -2,11 +2,11 @@ class KonyvModel {
     #konyvekTomb = [];
 
     constructor() {
-        console.log("KonyvModel");
+        // console.log("KonyvModel");
     }
     
     adatModosit(adat){
-        console.log(adat)
+        // console.log(adat)
     }
 
     adatTorol(adat){

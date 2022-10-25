@@ -16,7 +16,7 @@ class KonyvekView {
         tomb.forEach(konyv => {
             const konyvem = new KonyvView(konyv,this.tbodyElem);
             i++
-            console.log(i)
+            // console.log(i)
         });
     }
 }

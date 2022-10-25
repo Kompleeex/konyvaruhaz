@@ -3,7 +3,7 @@ class KonyvView {
     constructor(elem, szuloElem) {
         this.#elem = elem;
         // console.log("KonyvView");
-        console.log(elem);
+        // console.log(elem);
         szuloElem.append(`<tr>
         <td>${elem.id}</td>
         <td>${elem.cim}</td>
@@ -13,7 +13,7 @@ class KonyvView {
         <td><button id = "del${elem.id}">Töröl</button></td>
         </tr>`)
         this.sorElem = szuloElem.children("tr:last-child");
-        console.log(this.sorElem)
+        // console.log(this.sorElem)
         this.modositGomb = $(`#mod${elem.id}`);
         this.torolGomb = $(`#del${elem.id}`);
         this.modositGomb.on("click",()=>{
